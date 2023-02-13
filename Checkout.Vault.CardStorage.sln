@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA1D3E11-8AE8-4BE9-9B3E-1B0FCF8FE5AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{26894D2E-5EB2-4ADB-B31C-F730B4D64C03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Vault.CardStorage.Api", "src\Checkout.Vault.CardStorage.Api\Checkout.Vault.CardStorage.Api.csproj", "{2DCABBF0-664C-4BB8-A307-A24A722B6DAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Vault.CardStorage.Application", "src\Checkout.Vault.CardStorage.Application\Checkout.Vault.CardStorage.Application.csproj", "{CA0B77BB-CB7C-4BCF-BE3B-C8C110EAFC23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Vault.CardStorage.Core", "src\Checkout.Vault.CardStorage.Core\Checkout.Vault.CardStorage.Core.csproj", "{8D238E74-2AE9-4EF2-BA42-86F3CD3824AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Vault.CardStorage.Infrastructure", "src\Checkout.Vault.CardStorage.Infrastructure\Checkout.Vault.CardStorage.Infrastructure.csproj", "{127AFD5F-3551-4C3F-A7C4-AC615A157711}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Acceptance", "Acceptance", "{83E48ED2-17EA-4AEC-8608-08708705303C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{55B749F9-7A55-4B5D-B29D-65EE40DAE390}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{0581DE20-A379-45D1-80B1-F8220A1E3D3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Vault.CardStorage.Api.Tests.Acceptance", "test\Acceptance\Checkout.Vault.CardStorage.Api.Tests.Acceptance\Checkout.Vault.CardStorage.Api.Tests.Acceptance.csproj", "{8429E3E6-A8B6-4FC8-8480-D868050537C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Vault.CardStorage.Infrastructure.Tests.Integration", "test\Integration\Checkout.Vault.CardStorage.Infrastructure.Tests.Integration\Checkout.Vault.CardStorage.Infrastructure.Tests.Integration.csproj", "{B3303480-F5C8-4598-A97B-3A3DD7C725F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Vault.CardStorage.Core.Tests.Unit", "test\Unit\Checkout.Vault.CardStorage.Core.Tests.Unit\Checkout.Vault.CardStorage.Core.Tests.Unit.csproj", "{7248EC2C-5C36-478A-99BF-1DD98AFF02E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Vault.CardStorage.Application.Tests.Unit", "test\Unit\Checkout.Vault.CardStorage.Application.Tests.Unit\Checkout.Vault.CardStorage.Application.Tests.Unit.csproj", "{B18672F7-9162-4FFC-9380-566EFF779AFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DCABBF0-664C-4BB8-A307-A24A722B6DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCABBF0-664C-4BB8-A307-A24A722B6DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCABBF0-664C-4BB8-A307-A24A722B6DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCABBF0-664C-4BB8-A307-A24A722B6DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA0B77BB-CB7C-4BCF-BE3B-C8C110EAFC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0B77BB-CB7C-4BCF-BE3B-C8C110EAFC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0B77BB-CB7C-4BCF-BE3B-C8C110EAFC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0B77BB-CB7C-4BCF-BE3B-C8C110EAFC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D238E74-2AE9-4EF2-BA42-86F3CD3824AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D238E74-2AE9-4EF2-BA42-86F3CD3824AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D238E74-2AE9-4EF2-BA42-86F3CD3824AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D238E74-2AE9-4EF2-BA42-86F3CD3824AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127AFD5F-3551-4C3F-A7C4-AC615A157711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127AFD5F-3551-4C3F-A7C4-AC615A157711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127AFD5F-3551-4C3F-A7C4-AC615A157711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127AFD5F-3551-4C3F-A7C4-AC615A157711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8429E3E6-A8B6-4FC8-8480-D868050537C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8429E3E6-A8B6-4FC8-8480-D868050537C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8429E3E6-A8B6-4FC8-8480-D868050537C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8429E3E6-A8B6-4FC8-8480-D868050537C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3303480-F5C8-4598-A97B-3A3DD7C725F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3303480-F5C8-4598-A97B-3A3DD7C725F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3303480-F5C8-4598-A97B-3A3DD7C725F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3303480-F5C8-4598-A97B-3A3DD7C725F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7248EC2C-5C36-478A-99BF-1DD98AFF02E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7248EC2C-5C36-478A-99BF-1DD98AFF02E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7248EC2C-5C36-478A-99BF-1DD98AFF02E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7248EC2C-5C36-478A-99BF-1DD98AFF02E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18672F7-9162-4FFC-9380-566EFF779AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18672F7-9162-4FFC-9380-566EFF779AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18672F7-9162-4FFC-9380-566EFF779AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18672F7-9162-4FFC-9380-566EFF779AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DCABBF0-664C-4BB8-A307-A24A722B6DAB} = {AA1D3E11-8AE8-4BE9-9B3E-1B0FCF8FE5AD}
+		{CA0B77BB-CB7C-4BCF-BE3B-C8C110EAFC23} = {AA1D3E11-8AE8-4BE9-9B3E-1B0FCF8FE5AD}
+		{8D238E74-2AE9-4EF2-BA42-86F3CD3824AB} = {AA1D3E11-8AE8-4BE9-9B3E-1B0FCF8FE5AD}
+		{127AFD5F-3551-4C3F-A7C4-AC615A157711} = {AA1D3E11-8AE8-4BE9-9B3E-1B0FCF8FE5AD}
+		{83E48ED2-17EA-4AEC-8608-08708705303C} = {26894D2E-5EB2-4ADB-B31C-F730B4D64C03}
+		{55B749F9-7A55-4B5D-B29D-65EE40DAE390} = {26894D2E-5EB2-4ADB-B31C-F730B4D64C03}
+		{0581DE20-A379-45D1-80B1-F8220A1E3D3B} = {26894D2E-5EB2-4ADB-B31C-F730B4D64C03}
+		{8429E3E6-A8B6-4FC8-8480-D868050537C0} = {83E48ED2-17EA-4AEC-8608-08708705303C}
+		{B3303480-F5C8-4598-A97B-3A3DD7C725F6} = {55B749F9-7A55-4B5D-B29D-65EE40DAE390}
+		{7248EC2C-5C36-478A-99BF-1DD98AFF02E0} = {0581DE20-A379-45D1-80B1-F8220A1E3D3B}
+		{B18672F7-9162-4FFC-9380-566EFF779AFB} = {0581DE20-A379-45D1-80B1-F8220A1E3D3B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48F127B2-57A2-47D0-B285-66FE2F6FEF73}
+	EndGlobalSection
+EndGlobal
