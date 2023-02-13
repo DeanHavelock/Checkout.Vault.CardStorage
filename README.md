@@ -93,7 +93,7 @@ In the Ports and Adapters Architecture the interfaces are known as Ports to be i
 
 Domain models
 
-We should keep the Domain as clean as possible, however… We make an informed decision to introduce a Nuget dependency on helpful libraries for example OneOf or MediatR, but we should limit the introduction of external dependency concerns, we should be asking ourselves should we introduce this dependency in the infrastructure layer, sometimes, we make a pragmatic informed decision to take on a dependency for convenience and as long as the tradeoffs are understood, it’s okay to deviate where pragmatic to do so.
+We should keep the Domain as clean as possible, however… We make an informed decision to introduce a Nuget dependency on helpful libraries for example OneOf or MediatR, but we should limit the introduction of external dependency concerns.
 
 Testing The Clean Architecture:
 The Clean Architecture Testing Solution Structure: Integration, Unit and Acceptance
